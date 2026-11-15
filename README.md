@@ -17,20 +17,6 @@ Aplikasi desktop untuk mengelola katalog produk, dibuat dengan **Java**, **JavaF
 
 ---
 
-## ✨ Fitur
-
-| Fitur                 | Keterangan                                                                                          |
-| --------------------- | --------------------------------------------------------------------------------------------------- |
-| **Tambah produk**     | Isi nama, harga, dan pilih foto, lalu klik **Simpan**.                                              |
-| **Lihat katalog**     | Produk tampil sebagai kartu lengkap dengan foto, nama, harga, dan ID.                               |
-| **Edit produk**       | Klik **Edit** pada kartu. Data masuk ke form, ubah lalu klik **Simpan Perubahan** (atau **Batal**). |
-| **Hapus produk**      | Klik **Hapus**, lalu konfirmasi pada dialog sebelum data dihapus permanen.                          |
-| **Validasi input**    | Nama tidak boleh kosong, harga harus angka bulat lebih dari 0, dan foto wajib dipilih.              |
-| **Penyimpanan lokal** | Data tersimpan di database SQLite sehingga tidak hilang saat aplikasi ditutup.                      |
-| **Penghitung produk** | Jumlah produk diperbarui otomatis setelah setiap perubahan.                                         |
-
----
-
 ## 🧰 Teknologi
 
 - **Java 17**
@@ -110,7 +96,7 @@ cd KatalogProduk
 mvn clean javafx:run
 ```
 
-> ⚠️ **Penting:** jalankan perintah dari **folder utama proyek** (yang berisi `pom.xml`). Lokasi database dihitung dari folder tempat aplikasi dijalankan (`user.dir`), sehingga `data/katalog.db` akan dibuat di folder tersebut.
+> **Penting:** jalankan perintah dari **folder utama proyek** (yang berisi `pom.xml`). Lokasi database dihitung dari folder tempat aplikasi dijalankan (`user.dir`), sehingga `data/katalog.db` akan dibuat di folder tersebut.
 
 ### Menjalankan lewat IDE (NetBeans / IntelliJ / VS Code)
 
@@ -141,8 +127,7 @@ mvn clean javafx:run
 
 ## 👤 Pembuat
 
-**`[isi nama]`** — `[isi NIM]`
-GitHub: [@USERNAME](https://github.com/USERNAME)
+**`Wisam Anfaal Mahasin`**
 
 ---
 
