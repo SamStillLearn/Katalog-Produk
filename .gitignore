@@ -1,0 +1,16 @@
+# Maven
+target/
+
+# Database lokal (dibuat otomatis oleh aplikasi)
+data/*.db
+data/*.db-journal
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Log
+*.log
