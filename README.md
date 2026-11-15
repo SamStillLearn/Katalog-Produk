@@ -1,9 +1,7 @@
-# 🛒 Katalog Produk UPI Store
+# 🛒 Katalog Produk
 
 Aplikasi desktop untuk mengelola katalog produk, dibuat dengan **Java**, **JavaFX**, dan **SQLite** menggunakan prinsip **Pemrograman Berorientasi Objek (OOP)**. Pengguna dapat menambah, melihat, mengedit, dan menghapus produk yang ditampilkan dalam bentuk kartu (card).
 
-> **Tugas Proyek** — Mata Kuliah: `[isi nama mata kuliah]`
-> **Nama**: `[isi nama]` · **NIM**: `[isi NIM]` · **Kelas**: `[isi kelas]`
 
 ---
 
