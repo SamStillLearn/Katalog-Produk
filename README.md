@@ -23,35 +23,9 @@ Aplikasi desktop untuk mengelola katalog produk, dibuat dengan **Java**, **JavaF
 - **JavaFX 21** (`javafx-controls`, `javafx-fxml`)
 - **SQLite** melalui `sqlite-jdbc 3.49.1.0`
 - **Maven** (build dan dependency management)
-- **FXML + CSS** untuk antarmuka
+- **FXML + CSS** untuk UI
 
 ---
-
-## 🏗️ Struktur Proyek
-
-```
-KatalogProduk/
-├── data/
-│   └── katalog.db                  # dibuat otomatis saat aplikasi pertama dijalankan
-├── src/main/
-│   ├── java/
-│   │   ├── controller/
-│   │   │   └── KatalogController.java   # logika UI (tambah, edit, hapus, tampil)
-│   │   ├── data/
-│   │   │   └── ProdukRepository.java    # akses data: add, getAll, update, delete
-│   │   ├── db/
-│   │   │   └── Database.java            # koneksi dan pembuatan tabel SQLite
-│   │   ├── main/
-│   │   │   └── MainApp.java             # entry point aplikasi JavaFX
-│   │   └── model/
-│   │       └── Produk.java              # class model + validasi data
-│   └── resources/
-│       ├── image/                       # foto produk (kopi, roti, susu)
-│       └── view/
-│           ├── katalog.fxml             # layout antarmuka
-│           └── styles/app.css           # styling
-└── pom.xml
-```
 
 ## 🗄️ Skema Database
 
